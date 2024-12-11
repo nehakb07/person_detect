@@ -73,7 +73,7 @@ if uploaded_file is not None:
                 frame_bytes = buffer.tobytes()
 
                 # Show current frame
-                video_placeholder.image(frame_bytes, channels="BGR", use_column_width=True)
+                video_placeholder.image(frame_bytes, channels="BGR", use_container_width=True)
 
                 # Simulate video playback speed
                 time.sleep(1 / fps)
@@ -110,7 +110,7 @@ if uploaded_file is not None:
                     people_count += 1
 
             # Show the processed image and people count
-            st.image(image_resized, channels="BGR", use_column_width=True)
+            st.image(image_resized, channels="BGR", use_container_width=True)
             st.markdown(f"**People Detected: {people_count}**")
 
             end_time = time.time()
