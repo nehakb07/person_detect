@@ -7,7 +7,7 @@ import tempfile
 import os
 
 # Load YOLO model
-model = YOLO('weights/best.pt')
+model = YOLO('best.pt')
 
 # Set up the Streamlit interface
 st.title("Real-Time People Detection")
