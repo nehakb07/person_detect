@@ -8,7 +8,7 @@ The model is here: https://www.kaggle.com/models/nehakb/person_detection
 
 The dataset is here : https://www.kaggle.com/datasets/nehakb/crowd-detect/
 
-#Steps to Run the Model
+# Steps to Run the Model
 
 1. Install Dependencies
 
